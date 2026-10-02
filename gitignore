@@ -1,0 +1,50 @@
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+
+# --- Variables de entorno (NUNCA subir credenciales) ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Bases de datos locales ---
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.sqbpro
+
+# --- Archivos subidos por usuarios y reportes generados ---
+backend/uploads/
+uploads/
+reportes_*.xlsx
+reportes_*.csv
+
+# --- Logs ---
+*.log
+
+# --- Frontend (Node) ---
+node_modules/
+dist/
+build/
+.vite/
+
+# --- Docker ---
+docker-compose.override.yml
+
+# --- Editores y sistema operativo ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
